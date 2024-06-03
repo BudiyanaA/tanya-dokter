@@ -1,98 +1,358 @@
 {
-   "experts": {
-   "success": true,
-   "code": 200,
-   "message": "Success Get List Expert",
-   "data": [
-       {
-           "connect_id": 3598655,
-           "first_name": "Sakabatou Uwu",
-           "last_name": "",
-           "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png",
-           "profession": "Spesialis Kulit dan Kelamin",
-           "description": "Spesialis Penyakit Kelamin Rs. Trans Medical berpengalaman 12 tahun"
-       },
-       {
-           "connect_id": 7006235,
-           "first_name": "Aria Samudera Ea",
-           "last_name": "",
-           "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png",
-           "profession": "Spesialis Kulit dan Kelamin",
-           "description": "Spesialis Penyakit Kelamin Rs. Trans Medical berpengalaman 12 tahun"
-       }
-   ],
-   "meta": {
-       "page": 1,
-       "limit": 10,
-       "total_record": 2,
-       "total_pages": 1
-   }
-},
-   "expert": {
-   "success": true,
-   "code": 200,
-   "message": "Success Get Expert",
-   "data": {
-       "connect_id": 3598655,
-       "first_name": "Sakabatou Uwu",
-       "last_name": "",
-       "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png",
-       "profession": "Spesialis Kulit dan Kelamin",
-       "description": "Spesialis Penyakit Kelamin Rs. Trans Medical berpengalaman 12 tahun"
-   }
-},
-   "published_contribution": {
-   "success": true,
-   "code": 200,
-   "message": "Success Get List Published Submission",
-   "data": [
-       {
-           "contribution_id": 2136,
-           "contribution": {
-               "title": "Seputar Jerawat",
-               "category": "beauty",
-               "name": "I*****i",
-               "question": "kenapa jerawat saya sering muncul?, padahal sudah sering cuci muka",
-               "recaptcha": "03AFcWeA5OJ9WRSh9X1X8zoXDmwq5cgGHYoqSlH88YxEuwVv_DokgFNurJSho_SigMRy4IqCwJBiQDZqj0FRf1kOP2HDzsXWFMpfv48nSPYPSX0s_UpfVCojlFP5",
-               "show_name": false,
-               "sub_categories": ["jerawat"]
-           },
-           "answer_date": "2023-09-27T11:23:54.179+00:00",
-           "modify_answer_date": "None",
-           "slug": "seputar-jerawat",
-           "program_version": null,
-           "has_expert":true,
-           "author_expert": {
-               "id": 3598655,
-               "first_name": "Dr. Sakabatou",
-               "last_name": "Uwu",
-               "profession": "Spesialis Kulit dan Kelamin",
-               "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
-           }
-       },
-       {
-           "contribution_id": 2135,
-           "contribution": {
-               "title": "test title",
-               "category": "beauty",
-               "name": "Indun Melasti",
-               "question": "kenapa jerawat saya sering muncul?, padahal sudah sering cuci muka",
-               "recaptcha": "03AFcWeA5OJ9WRSh9X1X8zoXDmwq5cgGHYoqSlH88YxEuwVv_DokgFNurJSho_SigMRy4IqCwJBiQDZqj0FRf1kOP2HDzsXWFMpfv48nSPYPSX0s_UpfVCojlFP5",
-               "show_name": true,
-               "sub_categories": ["jerawat"]
-           },
-           "answer_date": "2023-09-26T11:23:54.179+00:00",
-           "modify_answer_date": "None",
-           "slug": "test-title",
-           "program_version": null,
-           "has_expert":false,
-       }
-   ],
-   "meta": {
-       "page": 1,
-       "limit": 10,
-       "total_record": 2,
-       "total_pages": 1
-   }
-}
+    "experts": {
+        "success": true,
+        "code": 200,
+        "message": "Success Get List Expert",
+        "data": [
+            {
+                "connect_id": 3598655,
+                "first_name": "Sakabatou Uwu",
+                "last_name": "",
+                "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png",
+                "profession": "Spesialis Kulit dan Kelamin",
+                "description": "Spesialis Penyakit Kelamin Rs. Trans Medical berpengalaman 12 tahun"
+            },
+            {
+                "connect_id": 7006235,
+                "first_name": "Aria Samudera Ea",
+                "last_name": "",
+                "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png",
+                "profession": "Spesialis Kulit dan Kelamin",
+                "description": "Spesialis Penyakit Kelamin Rs. Trans Medical berpengalaman 12 tahun"
+            }
+        ],
+        "meta": {
+            "page": 1,
+            "limit": 10,
+            "total_record": 2,
+            "total_pages": 1
+        }
+    },
+    "expert": {
+        "success": true,
+        "code": 200,
+        "message": "Success Get Expert",
+        "data": {
+            "connect_id": 3598655,
+            "first_name": "Sakabatou Uwu",
+            "last_name": "",
+            "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png",
+            "profession": "Spesialis Kulit dan Kelamin",
+            "description": "Spesialis Penyakit Kelamin Rs. Trans Medical berpengalaman 12 tahun"
+        }
+    },
+    "published_contribution": {
+        "success": true,
+        "code": 200,
+        "message": "Success Get List Published Submission",
+        "data": [
+            {
+                "contribution_id": 2136,
+                "contribution": {
+                    "title": "Seputar Jerawat",
+                    "category": "beauty",
+                    "name": "I*****i",
+                    "question": "kenapa jerawat saya sering muncul?, padahal sudah sering cuci muka",
+                    "recaptcha": "03AFcWeA5OJ9WRSh9X1X8zoXDmwq5cgGHYoqSlH88YxEuwVv_DokgFNurJSho_SigMRy4IqCwJBiQDZqj0FRf1kOP2HDzsXWFMpfv48nSPYPSX0s_UpfVCojlFP5",
+                    "show_name": false,
+                    "sub_categories": [
+                        "jerawat"
+                    ]
+                },
+                "answer_date": "2023-09-27T11:23:54.179+00:00",
+                "modify_answer_date": "None",
+                "slug": "seputar-jerawat",
+                "program_version": null,
+                "has_expert": true,
+                "author_expert": {
+                    "id": 3598655,
+                    "first_name": "Dr. Sakabatou",
+                    "last_name": "Uwu",
+                    "profession": "Spesialis Kulit dan Kelamin",
+                    "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
+                }
+            },
+            {
+                "contribution_id": 2135,
+                "contribution": {
+                    "title": "test title",
+                    "category": "beauty",
+                    "name": "Indun Melasti",
+                    "question": "kenapa jerawat saya sering muncul?, padahal sudah sering cuci muka",
+                    "recaptcha": "03AFcWeA5OJ9WRSh9X1X8zoXDmwq5cgGHYoqSlH88YxEuwVv_DokgFNurJSho_SigMRy4IqCwJBiQDZqj0FRf1kOP2HDzsXWFMpfv48nSPYPSX0s_UpfVCojlFP5",
+                    "show_name": true,
+                    "sub_categories": [
+                        "jerawat"
+                    ]
+                },
+                "answer_date": "2023-09-26T11:23:54.179+00:00",
+                "modify_answer_date": "None",
+                "slug": "test-title",
+                "program_version": null,
+                "has_expert": false,
+            }
+        ],
+        "meta": {
+            "page": 1,
+            "limit": 10,
+            "total_record": 2,
+            "total_pages": 1
+        }
+    },
+    "published_contribution_expert": {
+        "success": true,
+        "code": 200,
+        "message": "Success Get List Published Submission",
+        "data": [
+            {
+                "contribution_id": 2136,
+                "contribution": {
+                    "title": "Seputar Jerawat",
+                    "category": "beauty",
+                    "name": "I*****i",
+                    "question": "kenapa jerawat saya sering muncul?, padahal sudah sering cuci muka",
+                    "recaptcha": "03AFcWeA5OJ9WRSh9X1X8zoXDmwq5cgGHYoqSlH88YxEuwVv_DokgFNurJSho_SigMRy4IqCwJBiQDZqj0FRf1kOP2HDzsXWFMpfv48nSPYPSX0s_UpfVCojlFP5",
+                    "show_name": false,
+                    "sub_categories": [
+                        "jerawat"
+                    ]
+                },
+                "answer_date": "2023-09-27T11:23:54.179+00:00",
+                "modify_answer_date": "None",
+                "slug": "seputar-jerawat",
+                "program_version": null,
+                "has_expert": true,
+                "author_expert": {
+                    "id": 3598655,
+                    "first_name": "Dr. Sakabatou",
+                    "last_name": "Uwu",
+                    "profession": "Spesialis Kulit dan Kelamin",
+                    "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
+                }
+            },
+            {
+                "contribution_id": 2135,
+                "contribution": {
+                    "title": "test title",
+                    "category": "beauty",
+                    "name": "Indun Melasti",
+                    "question": "kenapa jerawat saya sering muncul?, padahal sudah sering cuci muka",
+                    "recaptcha": "03AFcWeA5OJ9WRSh9X1X8zoXDmwq5cgGHYoqSlH88YxEuwVv_DokgFNurJSho_SigMRy4IqCwJBiQDZqj0FRf1kOP2HDzsXWFMpfv48nSPYPSX0s_UpfVCojlFP5",
+                    "show_name": true,
+                    "sub_categories": [
+                        "jerawat"
+                    ]
+                },
+                "answer_date": "2023-09-26T11:23:54.179+00:00",
+                "modify_answer_date": "None",
+                "slug": "test-title",
+                "program_version": null,
+                "has_expert": true,
+                "author_expert": {
+                    "id": 3598655,
+                    "first_name": "Dr. Sakabatou",
+                    "last_name": "Uwu",
+                    "profession": "Spesialis Kulit dan Kelamin",
+                    "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
+                }
+            }
+        ],
+        "meta": {
+            "page": 1,
+            "limit": 10,
+            "total_record": 2,
+            "total_pages": 1
+        }
+    },
+    "published_contribution_detail": {
+        "success": true,
+        "code": 200,
+        "message": "Success Get Detail Published Contribution",
+        "data": {
+            "contribution_id": 2136,
+            "contribution": {
+                "title": "Seputar Jerawat",
+                "category": "beauty",
+                "name": "I*****i",
+                "question": "kenapa jerawat saya sering muncul?, padahal sudah sering cuci muka",
+                "recaptcha": "03AFcWeA5OJ9WRSh9X1X8zoXDmwq5cgGHYoqSlH88YxEuwVv_DokgFNurJSho_SigMRy4IqCwJBiQDZqj0FRf1kOP2HDzsXWFMpfv48nSPYPSX0s_UpfVCojlFP5",
+                "show_name": false,
+                "sub_categories": [
+                    "jerawat"
+                ]
+            },
+            "contribution_expert": {
+                "answer": "Halo, Selamat Pagi, penyebab jerawat bisa bermacam-macam tergantung kondisi kulit, apabila jerawat tidak kunjung hilang harap datang ke tempat praktek saya di Rs. Trans Medical"
+            },
+            "answer_date": "2023-09-27T11:23:54.179+00:00",
+            "modify_answer_date": "None",
+            "has_expert": true,
+            "author_expert": {
+                "id": 3598655,
+                "first_name": "Dr. Sakabatou",
+                "last_name": "Uwu",
+                "profession": "Spesialis Kulit dan Kelamin",
+                "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
+            }
+        }
+    },
+    "category": {
+        "success": true,
+        "data": [
+            {
+                "_id": {
+                    "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                },
+                "name": "Beauty",
+                "slug": "beauty",
+                "sub_categories": [
+                    {
+                        "_id": {
+                            "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                        },
+                        "name": "Skincare"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                        },
+                        "name": "Makeup"
+                    }
+                ]
+            },
+            {
+                "_id": {
+                    "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                },
+                "name": "Kulit",
+                "slug": "kulit",
+                "sub_categories": [
+                    {
+                        "_id": {
+                            "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                        },
+                        "name": "Kulit Badan"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                        },
+                        "name": "Kulit Muka"
+                    }
+                ]
+            }
+        ],
+        "code": 200,
+        "message": "Success create contribution"
+    },
+    "category_detail": {
+        "success": true,
+        "data": [
+            {
+                "_id": {
+                    "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                },
+                "name": "Skincare"
+            },
+            {
+                "_id": {
+                    "$oid": "5f5b1b3b7b3b3b3b3b3b3b3b"
+                },
+                "name": "Makeup"
+            }
+        ],
+        "code": 200,
+        "message": "Success create contribution"
+    },
+    "dashboard_contribution_pending": {
+        "success": true,
+        "code": 200,
+        "data": [
+            {
+                "id": "6502a84af7de926a8b1f1d48",
+                "title": "saya mau tanya",
+                "content": "Saya mau tanya",
+                "url_publish": "https://www.beautynesia.id/life/museum-nasional-indonesia-kebakaran-intip-5-koleksi-yang-mencuri-perhatian/b-279998",
+                "program": "cerita-yuk",
+                "sub_program": "noutri_wear",
+                "author_expert": {
+                    "id": 3598655,
+                    "first_name": "Dr. Sakabatou",
+                    "last_name": "Uwu",
+                    "profession": "Spesialis Kulit dan Kelamin",
+                    "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
+                }
+            }
+        ],
+        "meta": {
+            "limit": 10,
+            "page": 1,
+            "total_pages": 1,
+            "total_record": 2
+        }
+    },
+    "dashboard_contribution_published": {
+        "success": true,
+        "code": 200,
+        "data": [
+            {
+                "id": "6502a84af7de926a8b1f1d48",
+                "title": "saya mau tanya",
+                "content": "Saya mau tanya",
+                "url_publish": "https://www.beautynesia.id/life/museum-nasional-indonesia-kebakaran-intip-5-koleksi-yang-mencuri-perhatian/b-279998",
+                "program": "cerita-yuk",
+                "sub_program": "noutri_wear",
+                "author_expert": {
+                    "id": 3598655,
+                    "first_name": "Dr. Sakabatou",
+                    "last_name": "Uwu",
+                    "profession": "Spesialis Kulit dan Kelamin",
+                    "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
+                }
+            }
+        ],
+        "meta": {
+            "limit": 10,
+            "page": 1,
+            "total_pages": 1,
+            "total_record": 2
+        }
+    },
+    "dashboard_contribution_declined": {
+        "success": true,
+        "code": 200,
+        "data": [
+            {
+                "id": "6502a84af7de926a8b1f1d48",
+                "title": "saya mau tanya",
+                "content": "Saya mau tanya",
+                "url_publish": "https://www.beautynesia.id/life/museum-nasional-indonesia-kebakaran-intip-5-koleksi-yang-mencuri-perhatian/b-279998",
+                "program": "cerita-yuk",
+                "sub_program": "noutri_wear",
+                "author_expert": {
+                    "id": 3598655,
+                    "first_name": "Dr. Sakabatou",
+                    "last_name": "Uwu",
+                    "profession": "Spesialis Kulit dan Kelamin",
+                    "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png"
+                }
+            }
+        ],
+        "meta": {
+            "limit": 10,
+            "page": 1,
+            "total_pages": 1,
+            "total_record": 2
+        }
+    },
+    "dashboard_contribution_counter": {
+        "success": true,
+        "code": 200,
+        "data": {
+            "pending": 10,
+            "published": 10,
+            "declined": 10
+        },
+        "message": "Success get counter dashboard contribution"
+    }
 }

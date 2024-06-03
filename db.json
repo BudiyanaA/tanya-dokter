@@ -27,5 +27,18 @@
        "total_record": 2,
        "total_pages": 1
    }
+},
+   "expert": {
+   "success": true,
+   "code": 200,
+   "message": "Success Get Expert",
+   "data": {
+       "connect_id": 3598655,
+       "first_name": "Sakabatou Uwu",
+       "last_name": "",
+       "photo": "https://images.detik.com/community/media/detikconnectdevel/2015/5/20/2913c80fdbde7f42910f7f0163640b27.png",
+       "profession": "Spesialis Kulit dan Kelamin",
+       "description": "Spesialis Penyakit Kelamin Rs. Trans Medical berpengalaman 12 tahun"
+   }
 }
 }
